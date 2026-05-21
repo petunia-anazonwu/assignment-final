@@ -5,7 +5,7 @@ def brute_force(arr):
   for x in arr:
     s += x
     return s
-def test_small()
+def test_small():
   assert solve_q1([1,2,3]) == 6
 def test_edge_empty():
   assert solve_q1([]) == 0
