@@ -1,4 +1,4 @@
-Q1:Starter file
+Q1: Starter file
 - Implement solve_q1(arr) below.
 def solve_q1(arr):
 # Placeholder: returns sum of elements
