@@ -49,13 +49,13 @@ def main():
     ]
     run_kruskal("GRAPH 2 (Test 1: 5-Node, 8-Edge Variant)", vertices_2, edges_2)
 
-    # GRAPH 3: Connected Graph (5 Nodes, 9 Edges)
-    vertices_3 = ['V', 'W', 'X', 'Y', 'Z']
+        # GRAPH 3: Connected Graph (Exactly 5 Nodes, 8 Edges) - Test 2
+    vertices_3 = ['1', '2', '3', '4', '5']
     edges_3 = [
-        (3, 'V', 'W'), (6, 'V', 'X'), (2, 'W', 'X'), (4, 'W', 'Y'),
-        (5, 'X', 'Y'), (8, 'X', 'Z'), (1, 'Y', 'Z'), (7, 'V', 'Y'), (9, 'W', 'Z')
+        (1, '1', '2'), (2, '3', '4'), (3, '2', '3'), (4, '4', '5'),
+        (5, '1', '3'), (6, '2', '4'), (7, '3', '5'), (8, '1', '5')
     ]
-    run_kruskal("GRAPH 3 (Test 2: 5-Node, 9-Edge Variant)", vertices_3, edges_3)
+    run_kruskal("GRAPH 3 (Test 2: 5-Node, 8-Edge Variant)", vertices_3, edges_3)
 
 if __name__ == "__main__":
     main()
